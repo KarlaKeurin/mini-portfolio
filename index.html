@@ -1,0 +1,77 @@
+<!--usar no css: font-family: 'VT323', monospace;-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+</head>
+<body>
+
+    <main class="cartao">
+
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de foto-perfil">
+            <h1 class="nome">Karla Keurin</h1>
+            <h2 class="cargo">Desenvolvedora Web</h2>
+        </div>
+
+        <div class="conteudo">
+            
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                    <div class="descricao">
+                        <p>Oiee! Tudo bem?</p>
+                        <p>Me chamo Karla Keurin, atualmente estudo Desenvolvimento Web na Trybe, onde faço 
+                            projetos envolvendo <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, entre 
+                            outras tecnologias. 
+                            <div>Amo tudo que envolve tecnologia e criatividade, aprender coisas novas, assistir 
+                            séries e filmes e conhecer lugares diferentes são meus hobbies preferidos.</div></p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.linkedin.com/in/karla-keurin-lima-320839173/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/karlakeurin" target="_blank" class="instagram">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/KarlaKeurin" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
